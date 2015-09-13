@@ -23,7 +23,7 @@ newDateTime <- strptime(dateTime,format='%Y-%m-%d,%H:%M:%S')	#convert date & tim
 *** Plot 3 *************************
 ************************************
 
-png("C:plot3.png",    				# create PNG for the heat map        
+png("plot3.png",    				# create PNG for the heat map        
   	width = 480,        			# dimensions in pixels
   	height = 480,
   ) 
