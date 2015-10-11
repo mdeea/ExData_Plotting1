@@ -1,6 +1,6 @@
-************************************
-*** Data input and manipulation ****
-************************************
+#####################################
+### Data input and manipulation #####
+#####################################
 
 
 
@@ -18,10 +18,9 @@ dateTime <- paste(data$date,data$time,sep=",")
 newDateTime <- strptime(dateTime,format='%Y-%m-%d,%H:%M:%S')	#convert date & time to POSIXlt
 
 
-
-************************************
-*** Plot 3 *************************
-************************************
+#####################################
+### Plot 3 ##########################
+#####################################
 
 png("plot3.png",    				# create PNG for the heat map        
   	width = 480,        			# dimensions in pixels
